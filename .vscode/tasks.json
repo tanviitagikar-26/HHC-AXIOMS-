@@ -1,0 +1,27 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Verify restored website",
+			"type": "shell",
+			"command": "cmd.exe",
+			"args": [
+				"/c",
+				"npm --prefix \"project-bolt-sb1-vxuy4ea1\\project\" run typecheck && npm --prefix \"project-bolt-sb1-vxuy4ea1\\project\" run lint && npm --prefix \"project-bolt-sb1-vxuy4ea1\\project\" run build"
+			],
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "Validate Gallery photo layout",
+			"type": "shell",
+			"command": "cmd.exe",
+			"args": [
+				"/c",
+				"npm --prefix \"project-bolt-sb1-vxuy4ea1\\project\" run typecheck && npm --prefix \"project-bolt-sb1-vxuy4ea1\\project\" run lint && npm --prefix \"project-bolt-sb1-vxuy4ea1\\project\" run build"
+			],
+			"isBackground": false,
+			"problemMatcher": []
+		}
+	]
+}
