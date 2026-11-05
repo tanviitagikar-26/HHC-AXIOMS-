@@ -1,0 +1,21 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+
+# Build files
+dist/
+build/
+
+# Private keys and certificates
+*.pem
+*.key
+
+# Logs
+*.log
+
+# Local configuration
+.DS_Store
